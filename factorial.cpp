@@ -8,7 +8,10 @@ using namespace std;
 int factorial(int n){
 
 
-        printf("Answer is: ");
+        if(n<0){
+            return -1;
+        }
+        cout<<"Answer is: "<<endl;
         if(n!=1){
             return(n * factorial(n-1));
         }
