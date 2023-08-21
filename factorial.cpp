@@ -7,19 +7,11 @@ using namespace std;
 
 int factorial(int n){
 
-    if(n<0){
-        return -1;
-        printf("Negative number.");
-    }else{
 
+        cout<<"Answer is: "<<endl;
         if(n!=1){
             return(n * factorial(n-1));
         }
         else return 1;
-
-    }
-
-
         
-
 }
